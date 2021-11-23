@@ -1,0 +1,19 @@
+# See options here
+# https://terraria.fandom.com/wiki/Server#serverconfig
+
+world=/home/terraria/worlds/gilmo.wld
+worldpath=/home/terraria/worlds/
+autocreate=2
+seed=AwesomeSeed
+worldname=awesome-world
+difficulty=0
+maxplayers=8
+port=7777
+password=s3cret
+motd=Welcome to Gilmo server!
+banlist=/home/terraria/banlist.txt
+secure=1
+language=en-US
+upnp=0
+npcstream=60
+priority=1
