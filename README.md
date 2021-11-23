@@ -39,6 +39,10 @@ docker run --name terraria `
 -it terraria:latest
 ```
 
+The Docker container will give direct access to Terraria server CLI.  
+Server will listen on port 7777 TCP and UDP, feel free to expose your container over Internet with NAT or via tunneling
+
+
 ## Plugins
 
 Docker image include the TShock addons to improve server functions
