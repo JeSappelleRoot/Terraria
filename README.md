@@ -1,3 +1,13 @@
+
+<!-- vim-markdown-toc GFM -->
+
+* [Terraria on Docker - POC](#terraria-on-docker---poc)
+* [How to craft Docker image ?](#how-to-craft-docker-image-)
+* [How to start the server ?](#how-to-start-the-server-)
+
+<!-- vim-markdown-toc -->
+
+
 # Terraria on Docker - POC
 
 Here a quick Proof Of Concept to run Terraria multiplayer game server on Docker ;)
