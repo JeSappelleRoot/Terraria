@@ -3,7 +3,6 @@ FROM debian:10
 ARG server_version="143"
 ARG tshock_url="https://github.com/Pryaxis/TShock/releases/download/v4.5.5/TShock4.5.5_Terraria_1.4.2.3.zip"
 ARG terraria_home="/home/terraria"
-ENV terraria_home=${terraria_home}
 
 RUN adduser --shell /bin/false --home /home/terraria --disabled-password --disabled-login --gecos "" terraria && \
 apt-get update && apt-get install unzip wget -y && \
