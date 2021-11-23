@@ -25,7 +25,8 @@ You can also customize the given Dockerfile :
 
 ## How to start the server ? 
 
-Once the Docker image is ready, use the following command : 
+Once the Docker image is ready, use the following command :   
+
 `docker run --name terraria --hostname terraria -p 7777:7777/tcp -p 7777:7777/udp -v $PWD/worlds:/home/terraria/worlds -it terraria:latest`
 
 Or the multi line version : 
